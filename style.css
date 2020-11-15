@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.riquadro-trasp{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 25px;
+}
+.corpo{
+  padding: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+header{
+  /* width: 75%; */
+  margin: auto;
+}
+
+.logo-text{
+  width: 40%;
+  margin: auto;
+  color: lime;
+}
+
+.logo{
+  height: 90%;
+  width: 40%;
+  margin: auto;
+}
+
+.navigation{
+  border-radius: 3px;
+  padding: 2px;
+  background: lime
+}
+
+.buttons{
+  width: 50%;
+  margin: auto;
+}
+
+.vehicle{
+  padding: 10px;
+  color: white;
+}
+
+.titoloV{
+  font-size: 20px;
+}
+
+.infoVeicolo::before {
+  content: "\21A6";
+}
+
+.statoCarica{
+  font-size: 18px;
+}
+
+.barra1, .barra2, .barra3{
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.barra1{
+  color: orange;
+  width: 45%;
+  background-color: orange;
+  }
+
+.barra2{
+  color: lime;
+  width: 85%;
+  background-color: lime;
+}
+
+.barra3{
+  color: red;
+  width: 20%;
+  background-color: red;
+  }
